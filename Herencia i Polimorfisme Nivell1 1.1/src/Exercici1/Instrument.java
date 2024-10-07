@@ -1,4 +1,4 @@
-package Bussiness;
+package Exercici1;
 
 public abstract class Instrument {
 

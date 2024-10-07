@@ -1,9 +1,6 @@
-import Bussiness.Corda;
-import Bussiness.Instrument;
-import Bussiness.Percussio;
-import Bussiness.Vent;
-
-import java.util.ArrayList;
+import Exercici1.Corda;
+import Exercici1.Percussio;
+import Exercici1.Vent;
 
 public class Main {
     public static void main(String[] args) {

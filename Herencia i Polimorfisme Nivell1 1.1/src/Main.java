@@ -1,6 +1,7 @@
 import Exercici1.Corda;
 import Exercici1.Percussio;
 import Exercici1.Vent;
+import Exercici2.Cotxe;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +16,11 @@ public class Main {
         instrumentPercussio1.Tocar();
 
         System.out.println("\nEXERCICI 2\n");
+        Cotxe nouCotxe = new Cotxe(30);
+        System.out.println("Marca del cotxe: "+ nouCotxe.getMarca() + "\n" + "Model del cotxe: " + nouCotxe.getModel());
+        nouCotxe.accelerar();
+        nouCotxe.frenar();
+
     }
 
 }

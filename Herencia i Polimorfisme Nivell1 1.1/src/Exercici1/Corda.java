@@ -1,8 +1,12 @@
 package Exercici1;
 
 public class Corda extends Instrument{
-    {
+
+    {//instance code block
         System.out.println("Creant un instrument de corda");
+    }
+    static{
+        System.out.println("S'ha creat el instrument de corda");
     }
 
     public Corda(String nom, float preu) {

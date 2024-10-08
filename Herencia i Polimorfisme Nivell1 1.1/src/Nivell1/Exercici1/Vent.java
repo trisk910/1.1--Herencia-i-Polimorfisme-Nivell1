@@ -1,6 +1,6 @@
-package Exercici1;
+package Nivell1.Exercici1;
 
-public class Vent extends Instrument{
+public class Vent extends Nivell1.Exercici1.Instrument {
 
     {//instance code block
         System.out.println("Creant un instrument de vent");

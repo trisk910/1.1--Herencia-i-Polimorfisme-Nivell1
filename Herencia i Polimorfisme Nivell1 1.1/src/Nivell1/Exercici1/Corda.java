@@ -1,6 +1,8 @@
-package Exercici1;
+package Nivell1.Exercici1;
 
-public class Corda extends Instrument{
+import Nivell1.Exercici1.Instrument;
+
+public class Corda extends Instrument {
 
     {//instance code block
         System.out.println("Creant un instrument de corda");

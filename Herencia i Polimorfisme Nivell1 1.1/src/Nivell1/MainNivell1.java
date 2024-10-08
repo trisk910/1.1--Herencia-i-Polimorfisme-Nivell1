@@ -1,9 +1,11 @@
-import Exercici1.Corda;
-import Exercici1.Percussio;
-import Exercici1.Vent;
-import Exercici2.Cotxe;
+package Nivell1;
 
-public class Main {
+import Nivell1.Exercici1.Corda;
+import Nivell1.Exercici2.Cotxe;
+import Nivell1.Exercici1.Percussio;
+import Nivell1.Exercici1.Vent;
+
+public class MainNivell1 {
     public static void main(String[] args) {
 
         System.out.println("EXERCICI 1\n");

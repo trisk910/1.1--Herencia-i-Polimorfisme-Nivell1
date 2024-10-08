@@ -1,6 +1,6 @@
-package Exercici1;
+package Nivell1.Exercici1;
 
-public class Percussio extends Instrument{
+public class Percussio extends Nivell1.Exercici1.Instrument {
 
     {//instance code block
         System.out.println("Creant un instrument de percussio");

@@ -1,4 +1,4 @@
-# 1.1--Herencia-i-Polimorfisme-Nivell1
+# 1.1--Herencia-i-Polimorfisme-Nivell3
 
 Nivell 1
 Exercici 1

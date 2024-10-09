@@ -1,27 +1,33 @@
 package Nivell3.Noticies;
 
-public class Noticia {
+public abstract class Noticia {
     private String titular;
     private String text = "";
-    private int punctuacio;
+    private int puntuacio;
     private double preu;
 
-    public Noticia(String titular, String text) {
+    public Noticia(String titular) {
         this.titular = titular;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
         this.text = text;
-        calcularPreuNoticia(text);
     }
 
-    public void calcularPreuNoticia(String textNoticia){
-
+    public int getPuntuacio() {
+        return puntuacio;
     }
 
-    public int getPunctuacio() {
-        return punctuacio;
-    }
-
-    public void setPunctuacio(int punctuacio) {
-        this.punctuacio = punctuacio;
+    public void setPuntuacio(int puntuacio) {
+        this.puntuacio = puntuacio;
     }
 
     public double getPreu() {
@@ -31,4 +37,7 @@ public class Noticia {
     public void setPreu(double preu) {
         this.preu = preu;
     }
+
+    public abstract void calcularPreuNoticia();
+    public abstract void calcularPuntuacioNoticia();
 }

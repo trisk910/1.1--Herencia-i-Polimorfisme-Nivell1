@@ -1,6 +1,6 @@
-package Nivell3.Noticies;
+package Nivell3;
 
-import Nivell3.Redactor;
+import Nivell3.Noticies.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
